@@ -34,11 +34,6 @@ public class MainActivity extends AppCompatActivity {
     private void setupViewPagerWithSlidingTab() {
         MyPagerAdapter pagerAdapter = new MyPagerAdapter(getSupportFragmentManager());
         mViewPager.setAdapter(pagerAdapter);
-        /*pagerTabStrip.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-        pagerTabStrip.setTextColor(Color.WHITE);
-        pagerTabStrip.setTabIndicatorColor(Color.WHITE);
-        pagerTabStrip.setTextSpacing(40);
-        pagerTabStrip.setDrawFullUnderline(true);*/
         mSlidingTabLayout.setDistributeEvenly(true);
         mSlidingTabLayout.setSelectedIndicatorColors(Color.WHITE);
         mSlidingTabLayout.setViewPager(mViewPager);
