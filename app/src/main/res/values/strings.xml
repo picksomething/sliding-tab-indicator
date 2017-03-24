@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">SlidingTabIndicator</string>
+    <string name="app_name">SlidingTabDemo</string>
+    <string name="pager_title_str">第%1$d页</string>
+    <string name="pager_content_str">这是第%1$d页的内容</string>
 </resources>
