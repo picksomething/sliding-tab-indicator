@@ -13,7 +13,7 @@
         android:background="@color/sliding_tab_bg"
         android:textAlignment="center"
         app:textDefaultColor="@color/tab_text_default_color"
-        app:textFocusColor="@android:color/white"/>
+        app:textSelectedColor="@android:color/white"/>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"

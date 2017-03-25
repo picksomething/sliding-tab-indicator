@@ -95,7 +95,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
         super(context, attrs, defStyle);
 
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.SlidingTabLayout);
-        mTextFocusColor = typedArray.getColor(R.styleable.SlidingTabLayout_textFocusColor, Color.WHITE);
+        mTextFocusColor = typedArray.getColor(R.styleable.SlidingTabLayout_textSelectedColor, Color.WHITE);
         mTextDefaultColor = typedArray.getColor(R.styleable.SlidingTabLayout_textDefaultColor, Color.WHITE);
         typedArray.recycle();
 

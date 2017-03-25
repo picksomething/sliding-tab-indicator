@@ -2,7 +2,8 @@
 <resources>
 
     <declare-styleable name="SlidingTabLayout">
-        <attr name="textFocusColor" format="color"/>
+        <attr name="textSelectedColor" format="color"/>
         <attr name="textDefaultColor" format="color"/>
+        <attr name="selectedIndicatorColor" format="color"/>
     </declare-styleable>
 </resources>
