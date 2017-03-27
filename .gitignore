@@ -47,3 +47,6 @@ db_files
 
 # External Native Build
 .externalNativeBuild
+
+# Java Doc
+javadoc/
