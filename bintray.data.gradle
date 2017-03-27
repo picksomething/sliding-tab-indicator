@@ -1,0 +1,23 @@
+ext {
+    bintrayRepo = 'picksomething'
+    bintrayName = 'slidingtabindicator'
+
+    publishedGroupId = 'cn.picksomething'
+    libraryName = 'slidingtabindicator'
+    artifact = 'slidingtabindicator'
+
+    libraryDescription = 'Android Library to add simple sliding tab with indicator'
+
+    siteUrl = 'https://github.com/picksomething/sliding-tab-indicator'
+    gitUrl = 'https://github.com/picksomething/sliding-tab-indicator.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'picksomething'
+    developerName = 'caobin'
+    developerEmail = 'zzucaobin@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
