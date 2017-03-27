@@ -2,6 +2,7 @@ sliding-tab-indicator
 ======================
 
 A simple sliding tab with indicator,modified base on SlidingTabLayout.
+
 You can change default tab text color and selected text color in xml layout
 
 Screenshots
@@ -30,6 +31,7 @@ Usage
 =====
 
 Add View to your layout where the viewpager is located.
+
 Add to any layout you need to use:
 
 ```xml
@@ -46,7 +48,7 @@ Add to any layout you need to use:
 - textSelectedColor:tab text color when it is selected
 
 If you want to change the default indicator color,just set:
-```
+```java
 mSlidingTabLayout.setSelectedIndicatorColors(Color.WHITE);
 ```
 before setViewPager for mSlidingTabLayout
